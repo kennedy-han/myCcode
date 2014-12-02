@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>~/dev/c/codes/traps/ch7/null.c.html</title>
+<meta name="Generator" content="Vim/7.3">
+<meta name="plugin-version" content="vim7.3_v6">
+<meta name="syntax" content="c">
+<meta name="settings" content="use_css,number_lines">
+<style type="text/css">
+<!--
+pre { font-family: monospace; color: #ffffff; background-color: #000000; }
+body { font-family: monospace; color: #ffffff; background-color: #000000; }
+.lnr { color: #ffff00; font-weight: bold; }
+.Statement { color: #ffff00; font-weight: bold; }
+.Special { color: #ff6060; font-weight: bold; }
+.Type { color: #00ff00; font-weight: bold; }
+.Constant { color: #ff40ff; font-weight: bold; }
+.PreProc { color: #8080ff; font-weight: bold; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<span class="lnr"> 1 </span><span class="PreProc">#include </span><span class="Constant">&lt;stdio.h&gt;</span>
+<span class="lnr"> 2 </span>
+<span class="lnr"> 3 </span><span class="Type">int</span>
+<span class="lnr"> 4 </span>main()
+<span class="lnr"> 5 </span>{
+<span class="lnr"> 6 </span>        <span class="Type">char</span>           *p;
+<span class="lnr"> 7 </span>        p = <span class="Constant">NULL</span>;
+<span class="lnr"> 8 </span>        printf(<span class="Constant">&quot;location 0 contains </span><span class="Special">%d</span><span class="Special">\n</span><span class="Constant">&quot;</span>, *p);
+<span class="lnr"> 9 </span>        <span class="Statement">return</span> <span class="Constant">0</span>;
+<span class="lnr">10 </span>}
+</pre>
+</body>
+</html>

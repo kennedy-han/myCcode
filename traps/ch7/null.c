@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int 
+main()
+{
+	char           *p;
+	p = NULL;
+	printf("location 0 contains %d\n", *p);
+	return 0;
+}
